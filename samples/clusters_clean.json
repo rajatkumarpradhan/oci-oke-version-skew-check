@@ -1,0 +1,13 @@
+{
+  "clusters": [
+    {
+      "ocid": "ocid1.cluster.oc1..c9",
+      "display_name": "prod-oke",
+      "control_plane_version": "v1.30.1",
+      "node_pools": [
+        {"ocid": "ocid1.nodepool.oc1..np9", "display_name": "workers", "kubernetes_version": "v1.30.1", "max_surge": 1},
+        {"ocid": "ocid1.nodepool.oc1..np10", "display_name": "batch", "kubernetes_version": "v1.30.1", "max_surge": 2}
+      ]
+    }
+  ]
+}
